@@ -1,10 +1,44 @@
 <!DOCTYPE html>
 <html>
         <head>
-                <title>My Webpage!</title>
+                <title>My Testpage!</title>
+                  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         </head>
         <body>
+          <h2>Table of Contents</h2>
+          <ul>
+              <li><a href="#section1">Section 1</a></li>
+              <li><a href="#section2">Section 2</a></li>
+              <li><a href="#section3">Section 3</a></li>
+          </ul>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8 col-sm-4">
+                <h2 id="section1">1</h2>
                 <p>Hello, world! It's me again. I'm trying out git.</p>
+              </div>
+              <div class="col-md-8 col-sm-4">
+                <h2 id="section2">2</h2>
                 <p>Raindrops on roses and whiskers on kittens, bright copper kettles and warm woolen mittens, brown paper packages tied up with string: These are a few of my favorite things.</p>
+              </div>
+              <div class="col-md-8 col-sm-4">
+                <h2 id="section3">3</h2>
+                <form>
+                  <input name="author" list="authors" placeholder:"Favorite Author">
+                  <datalist id="authors">
+                    <option value="Thomas Bernhard">
+                    <option value="Kathrin Passig">
+                    <option value="Elfriede Jelinek">
+                    <option value="Jean Paul">
+                    <option value="Leila Slimani">
+                  </datalist>
+                  <button>Submit!</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+
+
+
         </body>
 </html>
