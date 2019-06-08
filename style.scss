@@ -1,0 +1,32 @@
+$text-font: "MerriweatherSans",Arial,Helvetica,sans-serif;
+$headline-font: "Merriweather",Arial,Helvetica,sans-serif;
+
+p, button {
+  font-family: $text-font;
+}
+
+h1, h2, h3 {
+    font-family: $headline-font;
+    font-weight: 400;
+}
+
+p::selection,h2::selection, h1::selection {
+    color: red;
+    background-color: yellow;
+}
+
+.jumbotron {
+  background-color: pink;
+}
+
+@media (min-width: 300px) {
+    main {
+        background-color: white;
+    }
+}
+
+@media (max-width: 299px) {
+    main {
+        background-color: yellow;
+      }
+}
